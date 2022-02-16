@@ -54,3 +54,9 @@ sudo nmtui
 The expected output is
 
 ![Network Manager GUI](nmtui-1.png)
+
+Now, select "Edit a connection" and hit Ok button. This will take you to another screen as shown below
+
+![Network Manager GUI](nmtui-2.png)
+
+
