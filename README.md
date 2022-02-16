@@ -6,7 +6,7 @@ You may as well consider substituting CentOS 7.9 64-bit with Fedora 35 or Rocky 
 We are going to setup a Production Grade RedHat OpenShift Container Platform v4.9 which used Kubernetes v1.22.
 
 I'll be installing dnsmasq as the DNS Server on CentOS 7.9 64-bit and KVM as the Hypervisor.  All the nodes listed in the cluster
-will be created as KVM virtual machines running on CentOS v7.9. However, in actual production environment it is recommended to spread the master and worker nodes onto different Physical Servers for High Availability(HA).
+will be created as KVM virtual machines running on CentOS v7.9 on the same Physical Server. However, in actual production environment it is recommended to spread the master and worker nodes onto different Physical Servers for High Availability(HA).
 
 Once we are done with the setup, the RedHat OpenShift Cluster will have 
 <pre>
