@@ -53,4 +53,4 @@ sudo nmtui
 ```
 The expected output is
 
-![Network Manager GUI](nmtui.png)
+![Network Manager GUI](nmtui-1.png)
