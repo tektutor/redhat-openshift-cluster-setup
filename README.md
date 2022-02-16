@@ -63,3 +63,6 @@ At this point, I chose ens192 and clicked on Edit .  You may have to find the NI
 
 ![Network Manager GUI](nmtui-3.png)
 
+Then, choose IPV4 Configuration and change "Automatic" to "Manual" as shown below
+
+![Network Manager GUI](nmtui-4.png)
