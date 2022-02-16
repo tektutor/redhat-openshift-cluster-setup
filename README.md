@@ -19,6 +19,7 @@ worker-2        64 GB RAM, 8 Cores and 500 GB HDD
 LoadBalancer    16 GB RAM, 2 Cores and 100 GB HDD
 BootStrap Node  16 GB RAM, 4 Cores and 300 GB HDD  - This node will be deleted once the setup is ready
 </pre>
+
 ### System Configuration that I used
 <pre>
 PowerEdge R630 
@@ -28,3 +29,21 @@ NICs : 4
 512 GB RAM
 6 TB HDD
 </pre>
+
+### You can check the number of Logical Cores available on your system as shown below
+```
+sudo cat /proc/cpuinfo
+```
+In my server, the output I got is shown below in the screenshot
+
+### You can check the amount of RAM available on your system as shown below
+```
+sudo cat /proc/meminfo
+```
+
+
+### Setting up static IP for the CentOS v7.9
+```
+sudo nmtui
+```
+
