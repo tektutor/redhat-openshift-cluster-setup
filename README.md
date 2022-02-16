@@ -9,6 +9,7 @@ I'll be installing dnsmasq as the DNS Server on CentOS 7.9 64-bit and KVM as the
 will be created as KVM virtual machines running on CentOS v7.9. However, in actual production environment it is recommended to spread the master and worker nodes onto different Physical Servers for High Availability(HA).
 
 Once we are done with the setup, the RedHat OpenShift Cluster will have 
+<pre>
 master-1        64 GB RAM, 8 Cores and 500 GB HDD
 master-2        64 GB RAM, 8 Cores and 500 GB HDD
 master-3        64 GB RAM, 8 Cores and 500 GB HDD
@@ -17,11 +18,13 @@ worker-2        64 GB RAM, 8 Cores and 500 GB HDD
 
 LoadBalancer    16 GB RAM, 2 Cores and 100 GB HDD
 BootStrap Node  16 GB RAM, 4 Cores and 300 GB HDD  - This node will be deleted once the setup is ready
-
+</pre>
 ### System Configuration that I used
+<pre>
 PowerEdge R630 
 Processor Type: Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10Ghz
   - Logical Processors: 64
 NICs : 4
 512 GB RAM
 6 TB HDD
+</pre>
