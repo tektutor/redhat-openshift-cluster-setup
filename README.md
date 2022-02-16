@@ -35,6 +35,7 @@ NICs : 4
 sudo cat /proc/cpuinfo
 ```
 In my server, the output that I got is shown below
+
 ![Logical Processors](cpuinfo.png)
 
 ### You can check the amount of RAM available on your system as shown below
@@ -42,6 +43,7 @@ In my server, the output that I got is shown below
 sudo cat /proc/meminfo
 ```
 In my server, the output that I got is shown below
+
 ![RAM](meminfo.png)
 
 
@@ -50,5 +52,5 @@ In my server, the output that I got is shown below
 sudo nmtui
 ```
 The expected output is
-In my server, the output that I got is shown below
+
 ![Network Manager GUI](nmtui.png)
