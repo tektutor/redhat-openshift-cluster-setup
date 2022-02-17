@@ -46,23 +46,3 @@ In my server, the output that I got is shown below
 
 ![RAM](meminfo.png)
 
-
-### Setting up static IP for the CentOS v7.9
-```
-sudo nmtui
-```
-The expected output is
-
-![Network Manager GUI](nmtui-1.png)
-
-Now, select "Edit a connection" and hit Ok button. This will take you to another screen as shown below
-
-![Network Manager GUI](nmtui-2.png)
-
-At this point, I chose ens192 and clicked on Edit .  You may have to find the NIC name in your system.
-
-![Network Manager GUI](nmtui-3.png)
-
-Then, choose IPV4 Configuration and change "Automatic" to "Manual" as shown below
-
-![Network Manager GUI](nmtui-4.png)
